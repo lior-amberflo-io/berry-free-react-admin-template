@@ -4,11 +4,19 @@
         "browser": true,
         "es2021": true
     },
-    "extends": ["prettier", "plugin:react/jsx-runtime", "plugin:jsx-a11y/recommended", "plugin:react-hooks/recommended"],
+    "extends": [
+        "prettier",
+        "plugin:react/jsx-runtime",
+        "plugin:jsx-a11y/recommended",
+        "plugin:react-hooks/recommended"
+    ],
     "settings": {
         "import/resolver": {
             "node": {
-                "moduleDirectory": ["node_modules", "src/"]
+                "moduleDirectory": [
+                    "node_modules",
+                    "src/"
+                ]
             }
         }
     },
@@ -20,7 +28,10 @@
         },
         "ecmaVersion": 12
     },
-    "plugins": ["prettier", "react", "react-hooks"],
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
     "rules": {
         "react/jsx-filename-extension": 0,
         "no-param-reassign": 0,
@@ -38,18 +49,6 @@
             1,
             {
                 "ignoreRestSiblings": false
-            }
-        ],
-        "prettier/prettier": [
-            2,
-            {
-                "bracketSpacing": true,
-                "printWidth": 140,
-                "singleQuote": true,
-                "trailingComma": "none",
-                "tabWidth": 4,
-                "useTabs": false,
-                "endOfLine": "auto"
             }
         ]
     }
