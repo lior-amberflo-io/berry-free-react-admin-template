@@ -67,19 +67,19 @@ const chartData = {
     },
     series: [
         {
-            name: 'Pricing',
+            name: 'Demo scheduled',
             data: [35, 125, 35, 35, 35, 80, 35, 20, 35, 45, 15, 75]
         },
         {
-            name: 'Salesforce',
+            name: 'Email given',
             data: [35, 15, 15, 35, 65, 40, 80, 25, 15, 85, 25, 75]
         },
         {
-            name: 'Hubspot',
+            name: 'User left- No followup',
             data: [35, 145, 35, 35, 20, 105, 100, 10, 65, 45, 30, 10]
         },
         {
-            name: 'React',
+            name: 'Qualified Lead',
             data: [0, 0, 75, 0, 0, 115, 0, 0, 0, 0, 150, 0]
         }
     ]

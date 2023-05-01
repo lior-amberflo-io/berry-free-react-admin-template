@@ -51,7 +51,7 @@ const BajajAreaChartCard = () => {
                 </Grid>
                 <Grid item xs={12}>
                     <Typography variant="subtitle2" sx={{ color: theme.palette.grey[800] }}>
-                        10% Up
+                        9% Up
                     </Typography>
                 </Grid>
             </Grid>
